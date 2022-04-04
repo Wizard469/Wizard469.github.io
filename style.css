@@ -1,0 +1,54 @@
+body {
+    background-color: #ebe4e4;
+    padding: 20px;
+}
+
+p {
+    font-family: monospace;
+}
+
+.english {
+    font-size: 20px;
+}
+
+.focus {
+    font-size: 25px;
+}
+
+.persistence {
+    font-size: 30px;
+}
+
+.power-of-will {
+    font-size: 35px;
+}
+
+#myname {
+    text-align: center;
+}
+
+#photo {
+    float: left;
+    padding: 10px;
+    background-color: rgb(90, 84, 84);
+    width: 300px;
+}
+
+.image-container {
+    height: 320px;
+    position: relative;
+}
+
+#description {
+    position: relative;
+    top: 45%;
+    right: -5%;
+}
+
+.skillslist li:nth-child(odd) {
+    background-color: rgb(204, 163, 163);
+}
+
+.skillslist {
+    line-height: 45px;
+}

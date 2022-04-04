@@ -5,26 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <style>
-
-        body {
-            background-color: #ebe4e4;
-        }
-
-        p {
-            font-family: monospace;
-        }
-
-        .skillslist {
-            font-size: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <strong>Index of the page</strong> <br>
     <ul>
     <li><a href="#title"> Title</a></li>
-    <li><a href="#my name"> My name</a></li>
+    <li><a href="#myname"> My name</a></li>
     <li><a href="#photo"> Photo</a></li>
     <li><a href="#description"> Description</a></li>
     <li><a href="#skills"> Skills</a></li>
@@ -33,22 +20,29 @@
 
     <h1 id="title">My Portfolio</h1>
     <br/>
-    <h2 id="my name">My name:</h2>
-    <p>Jonathan Rocha Rodrigues</p>
-    <img id="photo" src="IMG_20180619_122800_034.jpg" alt="Intervalo a beira-mar" title="Intervalo a beira-mar">
-    <p id="description">Me chamo Jonathan, tenho 30 anos, nascido em <strong><em>João Pessoa-PB, Brasil</em></strong>.</p>
+    <div>
+        <h2 id="myname">Jonathan Rocha Rodrigues</h2>
+        <div class="image-container">
+            <img id="photo" src="IMG_20180619_122800_034.jpg" alt="Intervalo a beira-mar" title="Intervalo a beira-mar" >
+            <p id="description">Me chamo Jonathan, tenho 30 anos, nascido em <strong><em>João Pessoa-PB, Brasil</em></strong>.</p>
+        </div>
+    </div>
 
-    <br>
-
-    <h2 id="skills">Skills:</h2>
-
-    <ul class="skillslist">
-        <li><strong>Falar inglês<strong></li>
-        <li>Loading...</li>
-    </ul>
     <br>
     
-    <a href="pag002.html">Minha foto</a>
+    <h2 id="skills">Skills:</h2>
+
+    <ol class="skillslist">
+
+        <li class="english"><strong>Falar inglês</strong></li>
+        <li class="focus">Foco</li>
+        <li class="persistence">Persistência</li>
+        <li class="power-of-will">Força de vontade</li>
+
+    </ol>
+    <br>
+    
+    <a href="pag002.html" target="_blanck" alt="Foto a beira-mar">Minha foto</a>
     <br>
     <a href="https://www.respondi.com.br/" target="_blanck">Site que eu gosto</a>
     
